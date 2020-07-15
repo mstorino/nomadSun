@@ -1,0 +1,117 @@
+body {
+    /* here we use main type face and set it on body tag */
+    font-family: 'Cardo', georgia, serif;
+    font-size: 18px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* using same idea as tachyons using cclasses that apply
+specific classes to elements */
+
+.cardo {
+    font-family: 'Cardo', georgia, serif;
+}
+
+.archivo, 
+.text-block h3,
+.text-block blockquote h4 {
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: normal;
+}
+
+.tenor,
+.text-block blockquote p {
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.text-block blockquote h4 {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    margin: 0;
+}
+
+.text-block blockquote p {
+    font-size: 36px;
+    line-height: 1.33;
+}
+
+.archivo-regular {
+    font-family: 'Archivo', sans-serif;
+}
+
+.hero-heading {
+    letter-spacing: 0.05em;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+/* this is where we style the flexible content text block */
+.text-block h3 {
+    font-size: 20px;
+    margin-top:0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.line {
+    width: 40px;
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    height: 1px;
+    background-color: #1C1C1C;
+}
+
+/* overwrite inline size styles on img  so it scales
+with the page */
+.gallery-image img {
+    width: auto !important;
+    height: auto !important; 
+    display: block;
+}
+
+.caption {
+    max-width: 870px;
+
+}
+
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore-title {
+    margin-bottom: 48px;
+    max-width: 320px;
+}
+
+.description {
+    max-width: 860px;
+}
+
+.footer-content {
+    background-color: #1C1C1C;
+}
+
+.link:focus {
+    outline: none;
+} 
+
+.gallery .gallery-image:last-of-type {
+    margin-bottom: 0;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    margin-top:0;
+    margin-bottom: 32px;
+}
